@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>练习列表</title>
+<link rel='stylesheet' href="CSS/CSS样式重置表.css">  
+<link rel='stylesheet' href="CSS/练习列表.css">  
+</head>
+
+<body>
+<div class="whole">
+<img src="img\time1\新建文件夹\01.png" alt="my Image">
+<h1 >弗里德里希·威廉·尼采</h1>
+<p>弗里德里希·威廉·尼采（德语：Friedrich Wilhelm Nietzsche，1844年10月15日—1900年8月25日），德国著名哲学家、语言学家、文化评论家、诗人、作曲家、思想家，被认为是西方现代哲学的开创者，他的著作对于宗教、道德、现代文化、哲学、以及科学等领域提出了广泛的批判和讨论。他的写作风格独特，经常使用格言和悖论的技巧。尼采对于后代哲学的发展影响极大，尤其是在存在主义与后现代主义上。</p>
+
+<ul class="ul-st">
+	<li >人物生平
+		<ul>
+			<li class='iron'>1111111111111</li>
+			<li class='iron as'>1111111111111</li>
+			<li class='iron'>1111111111111</li>
+			<li class='iron'>1111111111111</li>
+			<li class='iron'>1111111111111</li>
+		</ul>
+	</li>
+	<li>哲学成就</li>
+	<li >文学成就</li>
+	<li >人物评价</li>
+</ul>
+
+<ul class="nav">
+	<li>哲学成就</li>
+	<li >文学成就
+		<ul class="subnav">
+			<li class='in'>1111111111111</li>
+			<li class='in'>1111111111111</li>
+			<li class='in'>1111111111111</li>
+			<li class='in'>1111111111111</li>
+			<li class='in'>1111111111111</li>
+		</ul>
+	</li>
+	<li >人物评价</li>
+	<li>哲学成就
+	</li>
+	<li >文学成就</li>
+	<li >人物评价</li>
+</ul>
+<article>
+	
+	<h1>From VOA Learning English, this is the Health & Lifestyle report.</h1>
+	<dl>
+		<dt> Get up an hour early. </dt>
+		<dd>People who get up early in the morning have a jump on the day. For starters, they're awake! And some studies show that our willpower and attention span are strongest in the morning. In fact, the morning may be the most productive part of your day.</dd>
+		<dd>In American English, we like to say, "The early bird gets the worm." Here, if you're a bird, the worm is the reward. So, this expressions means that people who rise up early have a head start and, therefore, are more likely to succeed.</dd>
+		<dd>Inventor, philosopher and writer Benjamin Franklin would probably agree. Americans like to use Franklin's memorable expressions. One of them is "Early to bed, early to rise, makes a man healthy, wealthy and wise."</dd>
+		<dd>Of course, there are exceptions. People who are "night owls" do their best work and their best thinking at night.</dd>
+	</dl>
+</article>
+
+
+</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  !-->
+<script>
+	var myImages=[
+		"img\\time1\\新建文件夹\\01.png",
+		"img\\time1\\新建文件夹\\02.png",
+		"img\\time1\\新建文件夹\\03.png",
+		"img\\time1\\新建文件夹\\04.png",
+		"img\\time1\\新建文件夹\\05.png",
+	];
+	
+	function doIndex(){
+		var imgIdex=(Math.floor(Math.random()*5));
+		while(imgIdex==index){
+			imgIdex=(Math.floor(Math.random()*5));
+		}
+		document.images[0].src=myImages[imgIdex];
+		var index=imgIdex;
+	}
+	var myTimerID=setInterval(doIndex,5000);
+	
+	</script>
+</body>
+</html>
