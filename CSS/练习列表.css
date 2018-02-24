@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.whole{
+	margin: 0 auto;
+	width: 89rem;
+	
+}
+ul{
+		list-style: none;
+	}
+.ul-st ul>li{
+	
+		color: #F17414;
+		line-height: 1.8rem;
+		padding-left: 2rem;
+		background: url(../img/01.png) no-repeat 0 0;
+	}
+
+.life{
+	list-style: upper-roman inside;
+}
+.nav>li{
+		color: #F17414;
+		line-height: 1.8rem;
+		padding-left: 2rem;
+		display: inline-block;
+}
+.subnav{
+	left:-999rem;
+	position: absolute;
+	
+	
+}
+.nav li:hover .subnav{
+	left:auto;
+}
+dt{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+dd{
+	margin-left: 2rem;
+}
+/*```````````````````````````````````*/
+img{
+	width: 720px;
+	height: 522px;
+	margin: 0 auto;
+	background: #000000;
+	margin-top: 2rem;
+	
+}

@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+.whole{
+	margin: 0 auto;
+	width: 60rem;
+	background: #50EDEB;
+}
+h1{
+	background: #FFF9F9;
+	padding: 2rem 0;
+}
+h2{
+	background: #4E0EEB;
+	color: aliceblue;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+}
+p,label,legend{
+	text-indent:2em;
+	font-style: italic;/* 斜体 */
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+.last-fields{
+	padding-bottom: 1rem;
+}
+/*===========================================*/
+fieldset{
+	
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 .625em;
+}
+.fields{
+	background: #1CA28F;
+	border: #000000 solid 1px;
+	margin: 0 auto;
+	
+	padding: 0.75rem;
+}
+.row{
+	margin:0.5rem 0;
+}
+.row>label{
+	cursor: pointer;/*属性规定要显示的光标的类型（形状）。*/
+	display: inline-block;
+	padding: 3px 6px;
+	text-align: right;
+	width: 300px;
+	vertical-align:top;
+}
+input{
+	font-size: inherit;
+	display: inline-block;
+	width: 18rem;
+}
+select{
+	font-size: inherit;
+}
+input[type="radio"],
+input[type="checkbox"]{
+	width: .9rem;
+}
+/*===================单选========================*/
+.radios{
+	margin-bottom: 0;
+	position: relative;
+	background-color: transparent;
+	
+}
+.radios .row{
+	margin:0 0 0 35%;
+}
+.radios legend{
+	position: absolute;
+	left:0;
+	padding:0 0.5rem;
+	text-align: right;
+	top: 2px;
+	width: 21.30rem;
+}
+.radios label{
+	
+	padding-left: 2px;
+	margin-left: -50px;
+	
+	vertical-align: middle;
+	width: auto;
+	
+}
+/*===================多选========================*/
+.emails label{
+	width: 40rem;
+	text-align: left;
+	text-indent:0;
+}
+/*==================提交按钮========================*/
+.btn{
+	background: #27906A;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #333;
+	color: #fff;
+	width: 12rem;
+	height: 3rem;
+	margin: 1rem 0 0 2rem;
+	padding:.5rem;
+	position: absolute;
+	left:19rem;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+/*===========================================*/
+table{
+	margin: 0 auto;
+}
+td{
+	text-align: right;
+}
+
+textarea{
+	width: 16rem;
+	height: 10rem;
+	padding: 1rem;
+}
+/*====================根据状态为表单设置样式=======================*/
+input:focus,
+textarea:focus{
+	background-color: greenyellow;
+}
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label{
+	color: #71199E;
+	font-weight: bold;
+}
+input[type="email"]:invalid{
+	color: red;
+}
+input[type="email"]:valid{
+	color:black;
+}
