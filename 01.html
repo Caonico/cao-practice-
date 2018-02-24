@@ -60,25 +60,6 @@
 
 </div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  !-->
-<script>
-	var myImages=[
-		"img\\time1\\新建文件夹\\01.png",
-		"img\\time1\\新建文件夹\\02.png",
-		"img\\time1\\新建文件夹\\03.png",
-		"img\\time1\\新建文件夹\\04.png",
-		"img\\time1\\新建文件夹\\05.png",
-	];
-	
-	function doIndex(){
-		var imgIdex=(Math.floor(Math.random()*5));
-		while(imgIdex==index){
-			imgIdex=(Math.floor(Math.random()*5));
-		}
-		document.images[0].src=myImages[imgIdex];
-		var index=imgIdex;
-	}
-	var myTimerID=setInterval(doIndex,5000);
-	
-	</script>
+
 </body>
 </html>
