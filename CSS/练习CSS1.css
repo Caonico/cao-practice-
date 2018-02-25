@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(../img/48452752_p0.png);
+	background-repeat: no-repeat;
+	background-color: #5B8081;
+	background-position: center top;
+	background-attachment: fixed;
+}
+.aa .bb {
+	color: #F3F900
+}
+.aa{
+	color:#FF0308;
+	display: inline;
+	
+}
+.bb{
+	color: #2116B0
+}
+
+.aa.bb{
+	color: #31AA00
+}
+div{
+	border: medium #E81619;
+}
+
+a:link{
+	color:red
+}
+a:visited{
+	color:orange
+}
+a:focus{
+	color: purple
+}
+a:hover{
+	color:green
+}
+a:active{
+	color:blue
+}
+.cr{
+	height: 20rem;
+	overflow:scroll;
+}

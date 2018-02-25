@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;/* 字体 */
+	
+}
+
+hr{
+	height: 5px;
+	background: #373535;
+	border: none;
+}
+/*==================清除浮动===========================*/
+	.clearfix:before,
+	.clearfix:after{
+		content:'';
+		display: table;
+	}
+	.clearfix:after{
+		clear:both;
+	}
+	.clearfix{
+		*zoom:1;
+	}
+
+
+.whole{
+	margin: 0 auto;
+	max-width: 87.5rem;
+}
+
+/*==================头部===========================*/
+
+
+header{
+	box-sizing: border-box;
+	max-width: 87.5rem;
+	margin: 0 auto;
+	text-align: center;
+		background: #7434B9;
+
+}
+
+
+.head-pic{
+	box-sizing: border-box;
+	width:100%;
+	height:18rem; 
+	margin: 0;
+}
+nav{
+	position: relative;
+	
+}
+.nav-ul{
+	box-sizing: border-box;
+	height: 4rem;
+
+	border-top: #125BBD solid 0.5rem;
+	margin: 0;
+	text-align:left;
+	border-bottom: #2E1C1D thin solid;
+
+}
+.nav-ul>li:first-child{
+	
+	padding-left: 5rem;
+	border-left: none;
+	
+}
+.nav-ul>li {
+	border-left:#383838 solid 2px;
+	display: inline-block;
+	color: #77ED17;
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+	padding: .5rem 1.125rem .5rem 1.4rem;
+	
+}
+nav a{
+	text-decoration:none;
+	
+}
+/*-----------------创建下拉式导航---------------------------*/
+.subnav,
+.in{
+	background: #7434B9;
+	
+}
+.subnav>li{
+	display: block;
+	
+}
+.nav-ul .subnav{
+	left:-999rem;
+	position: absolute;
+	z-index: 100;
+	
+	
+	
+}
+.subnav{
+	text-align: center;
+	padding: 1rem;
+	
+	
+}
+.nav-ul li:hover .subnav{
+	left:auto;
+}
+.nav-ul>li>a{
+	cursor:pointer;
+}
+/*-----------a的伪类设置-----------------*/
+a:link{
+	color:#34C93C;
+}
+a:visited{
+	color:#34C93C ;
+}
+a:focus{
+	color: #34C93C;
+}
+a:hover{
+	color:green
+}
+a:active{
+	color:blue
+}
+
+.nav-ull>i>a{
+	color: #34C93C;
+	cursor:default;
+}
+form{
+	box-sizing: border-box;
+	height: 3rem;
+	font-size: 1.2rem;
+	color: #77ED17;
+	margin: 0.5rem 0;
+	display: table;
+	margin: 0 auto;
+}
+.form-div{
+	
+	 display: table-cell;
+    vertical-align: middle;
+}
+/*==================主体=======================*/
+
+main{
+	box-sizing: border-box;
+	text-align: center;
+	max-width: 87.5rem;
+	margin: 0 auto;
+
+	
+	
+}
+/*-------------------视频--------------------------*/
+video{
+	width: 45rem;
+	border: #6B6969 .2rem solid;
+	box-shadow: 2px 2px 2px #5E5555;
+	border-radius: 5px;
+	background-color: #434141;
+}
+audio{
+	width: 45rem;
+	box-shadow: 6px 6px 10px #5E5555;
+	border-radius: 5px;
+}
+.video img{
+	box-shadow: 2px 5px 6px #5E5555;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 20rem;
+	margin-bottom: .5rem;
+}
+.art{
+	box-sizing: border-box;
+	border: #BEC301 5px outset;
+	min-height: 90rem;
+	padding: 1rem 2rem;
+
+	background: #1CAAAC ;
+
+	
+	
+
+}
+
+ h1{
+	font-size: 1.8rem;
+	letter-spacing: 0.5rem;/*字偶距*/
+	word-spacing: 0.2rem;/*字间距*/
+}
+.art h2{
+	font-size: 1.4rem;
+	text-align: left;
+}
+ P{
+	text-indent:2em;
+	font-style: italic;/* 斜体 */
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	
+}
+.art em{
+	font-weight: bold;/*加粗*/
+}
+.art-pic{
+	max-width:37.5rem;
+	width: 100%;
+	margin: 0 auto;
+	
+	
+}
+
+ .pp+p{
+	color:#E8D41D;
+}
+/*==================分栏=======================*/
+
+aside{
+	
+	padding: 0 1rem 0 0;
+	
+	
+}
+.as-div{
+	box-sizing: border-box;
+	background: #1FD499;
+	width: 30.35%;
+	margin-left: 70.88%;
+		box-sizing: border-box;
+	min-height: 90rem;
+	border:  #C914FB outset 5px;
+	padding: 1rem;
+	background: #007CA8;
+	
+}
+
+.as-hr{
+	margin-left: 0.5rem;
+	float: left;
+	width: 20rem;
+}
+.as-pic{
+	width: 20rem;
+	margin: 0 auto;
+	padding: 1rem 0;
+	
+}
+
+
+/*==========================尾部================================*/
+footer{
+	box-sizing: border-box;
+	max-width: 87.5rem;
+	margin: 0 auto;
+	text-align: center;
+		background: #7434B9;
+}
+footer img{
+	width:100%;
+	height: 35.64rem;
+	
+}
+

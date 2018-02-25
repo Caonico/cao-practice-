@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 20em(大于等于320px)
+--------------------------------------*/
+/* 30em(大于等于480px)
+--------------------------------------*/
+@media only screen and (min-width:40rem) and (max-width:44.937rem) {
+	/*==================头部===========================*/
+	nav li:first-child{
+		padding-left: 3rem;
+	}
+	form{
+		
+	}
+	.art{
+		background: #8B29EB;
+	}
+}
+/* 30em
+--------------------------------------*/
+@media only screen and (min-width:45rem) and (max-width:59.937rem) {
+	/*==================头部===========================*/
+	
+	form{
+		position: absolute;
+		right: 1rem;
+		top: 0.6rem;
+	}
+}
+/* 30em(大于等于480px)
+--------------------------------------*/
+@media only screen and (min-width:60rem) and (max-width:72.999rem){
+	/*==================头部===========================*/
+	
+	form{
+		position: absolute;
+		right: 1rem;
+		top: 0.6rem;
+	}
+
+	
+	.art{
+		background: #BCB11F;
+		width: 60%;
+		float:left;
+	}
+}
+/* 30em(大于等于480px)
+--------------------------------------*/
+
+/* 30em(大于等于480px)
+--------------------------------------*/
+@media only screen and (min-width:73rem){
+	/*==================头部===========================*/
+	
+	form{
+		position: absolute;
+		right: 1rem;
+		top: 0.6rem;
+	}
+
+	
+	.art{
+		background: #1CAAAC;
+		width: 70%;
+		
+		float:left;
+	}
+}
