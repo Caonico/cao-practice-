@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>练习2</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+ <link rel='stylesheet' href="CSS样式重置表.css">  
+ <link rel='stylesheet' href="CSS/练习2basics.css">
+<link rel='stylesheet' href="CSS/Untitled-2.css">
+
+</head>
+
+<body>
+<div class="whole">
+<!--==========================================================-->
+<!--=========================头部=================================-->
+<header>
+
+<img class="head-pic" src="img/1882.png">
+
+<nav>
+	
+	<ul class="nav-ul">
+		<li><a href="https://www.bilibili.com/" target="view_window">HOME</a></li>
+		<li><a>ABOUT</a>
+			<ul class="subnav">
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+		</ul>
+		</li>
+		<li><a>CONTACT</a>
+			<ul class="subnav">
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+				<li class='in'>1111111111111</li>
+		</ul>
+		</li>
+		<li><a>练习</a>
+			<ul class="subnav">
+				<li class='in'><a href="练习/表单练习.html">表单练习</a></li>
+				<li class='in'><a href="练习/表格练习.html">表格练习</a></li>
+				<li class='in'><a href="练习/练习10.html">拖动操作</a></li>
+				<li class='in'><a href="练习/转换文本.html">转换文本</a></li>
+				<li class='in'><a href="练习/练习10.html">拖动操作</a></li>
+				<li class='in'><a href="练习/练习10.html">拖动操作</a></li>
+		</ul>
+		</li>
+	</ul>
+	<form>
+		<div class='form-div'>
+		<label for="search">Search</label>
+		<input type="search" id='search' name="search">
+		<input type="button" >
+		</div>
+	</form>
+</nav>
+
+ </header>
+ <!--==========================主体================================-->
+ <main class="clearfix">
+ <!--===========================内容===============================-->
+ 
+	<article class="art">
+	<!-------------------------------视频----------------------------------->
+		<div class="video">
+			<h2>小林家的龙女仆</h2>
+			<hr>
+			<video src="Video/小林.mp4" controls preload="metadata" poster="img/62237074_p0.jpg"></video>
+			<h2>動く、動く</h2>
+			<hr>
+			<img src="img/2201251e4debddhbu8d0d1.jpg">
+			<audio src="Video/動く、動く.wav" controls preload="metadata"></audio>
+			
+		</div>
+			
+	<!-------------------------------文章----------------------------------->
+		<h2 class="tit">BBC news with Stewart Macintosh.</h2>
+		<hr>
+		<img  class='art-pic' src="img/58616942_p0.jpg">
+
+
+		<p class="pp">The Russian president <em>Vladimer Putin </em>says his country has destroyed all its chemical weapons. Global watchdog which aims to eliminate such arms, the OPCW said it had verified the destruction, describing it as a major milestone.</p>
+
+		<p>The Irish Airline Ryanair says it will cancel a further 18,000 flights between November and March. The decision will affect about 400,000 passengers. That's more for who already have their travel plans disrupted by earlier cancellations.</p>
+
+		<p>Uganda politicians have fought inside parliament for the second day running over plans to amend the constitution to allow the president Yoweri Museveni to stand in the next election. MPs wielded chairs and microphones stand during the long scuffle in the main parliamentary chamber.</p>
+
+		<p>Germany's finance minister Wolfgang Schauble known for his tough stance on solidarity in the Euro Zone is leaving his job. He has been nominated for the post of speaker in the new parliament after chancellor Angela Merkel completes her formation of a new government.</p>
+
+		<p><em>The Columbia president Juan Manuel Santos</em> has criticized the ENN rebel group for blowing up two oil pipe lines in the north of the country just days before a bilateral ceasefire is due to come into force. He said the attack has caused serious environmental damage.</p>
+
+		<p>The Authority in the Mexico City neighborhood say they will take legal action against two construction companies for allegedly using some substandard materials in two buildings that collapsed during last week's earthquake. They will demand compensation.</p>
+		<p>BBC news.</p>
+	 </article>
+<!--=========================分栏=================================-->
+	<aside>
+		<div class="as-div">
+		<img class="as-pic" id="changePic" src="img/66176759_p0.jpg">
+		
+		<hr>
+		
+		<article class="as-art">
+			<h1>Democracy Denied in Venezuela </h1>
+		
+			<img class='as-pic'  src="img/66037150_p0_master1200.jpg">
+			
+			
+			<p>he United States applauds the courage, determination, and will of the Venezuelan people who tried to exercise their constitutional right to vote in the October 15 gubernatorial elections.
+			</p>
+
+			<p>Candidates loyal to the authoritarian regime of President Nicolas Maduro claimed victory for 18 of 23 governorships contested in the October 15 elections, according to the regime-controlled National Electoral Council, or CNE. But opposition leaders rejected both the process and the tally, citing exit polls that indicated their candidates won many more states.
+			</p>
+			
+				
+		</article>
+				
+			
+
+		</div>
+	</aside>
+		
+		</main>
+<!--==========================尾部================================-->
+	<footer>
+		<img class="fo-pic" src="img/壁纸134.jpg">
+			<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</footer>
+</div>
+<!--==========================Script================================-->
+<script type="text/javascript" src="JS/练习2.js"></script>
+<script >
+	var myImages=[
+	"img//as-pic//00.jpg",
+	"img//as-pic//01.png",
+	"img//as-pic//02.jpg",
+	"img//as-pic//03.jpg",
+	"img//as-pic//04.png",
+	"img//as-pic//05.jpg",
+	"img//as-pic//06.jpg",
+	"img//as-pic//07.jpg"
+];
+	var anotherpic="img//as-pic//06.jpg";
+	var anotherpic1="\img\as-pic\07.jpg";
+
+	</script>
+</body>
+</html>
